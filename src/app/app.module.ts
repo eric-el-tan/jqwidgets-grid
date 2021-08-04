@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Page1Module } from './pages/page1/page1/page1.module';
 import { jqxGridModule } from 'jqwidgets-ng/jqxgrid';
+import { Page3Module } from './pages/page3/page3.module';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { jqxGridModule } from 'jqwidgets-ng/jqxgrid';
     AppRoutingModule,
     Page1Module,
     Page2Module,
+    Page3Module,
     jqxGridModule
   ],
   providers: [],

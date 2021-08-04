@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PreloadAllModules, RouterModule } from '@angular/router';
 import { Page2Component } from './pages/page2/page2.component';
+import { Page3Component } from './pages/page3/page3.component';
 
 const routes = [
   {
@@ -11,6 +12,9 @@ const routes = [
   },
   {
     path: 'page2', component: Page2Component
+  },
+  {
+    path: 'page3', component: Page3Component
   },
   {
     path: '**',
